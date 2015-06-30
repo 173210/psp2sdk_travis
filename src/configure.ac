@@ -10,6 +10,7 @@ AC_INIT(PSP2SDK, dirty-m4_esyscmd_s([git describe --always]),
 AC_CONFIG_SRCDIR(include/psp2/moduleinfo.h)
 
 AM_INIT_AUTOMAKE(foreign -Wno-portability)
+AM_SILENT_RULES(yes)
 
 # Checks for programs.
 AC_PROG_CC
