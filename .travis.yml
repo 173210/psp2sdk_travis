@@ -8,6 +8,7 @@
 sudo: required
 
 before_install:
+ - automake --version
  - sudo add-apt-repository -y ppa:terry.guo/gcc-arm-embedded
  - sudo add-apt-repository -y ppa:win-cross-dev/win-cross
  - sudo apt-get update -qq -y
